@@ -14,14 +14,15 @@ public class SelectDropDown {
 		 driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 		// WebElement dropdown = driver.findElement(By.name("my-select"));
 		 WebElement dropdown = driver.findElement(By.name("my-disabled"));
-		 //Select s = new Select(dropdown);
+		 
+		//Select s = new Select(dropdown);
 		 //s.selectByIndex(2);
 		// s.selectByIndex(3);
-		 
 		// s.selectByVisibleText("One");
 		 //List dropdown selectedOption
-		 Boolean isEnabled = dropdown.isEnabled();
-		 System.out.println(isEnabled);
+		 
+	Boolean isEnabled = dropdown.isEnabled();
+//		 System.out.println(isEnabled);
 		 
 	 }
 }
